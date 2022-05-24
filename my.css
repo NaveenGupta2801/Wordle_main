@@ -1,0 +1,75 @@
+.container {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+#mytable td {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0%;
+    margin: 0%;
+    height: 50px;
+    width: 25px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.my-4 {
+    height: 5px;
+}
+
+input {
+    text-transform: uppercase;
+}
+
+table td {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    background-color: rgba(205, 121, 121, 0.884);
+    text-align: center;
+    font-size: larger;
+    margin: 0%;
+    padding: 0%;
+    font-weight: bolder;
+}
+
+.cell-disabled {
+    background-color: grey !important; 
+    transition: 1s;
+    
+}
+
+
+.cell-yellow {
+    background-color: rgba(226, 217, 34, 0.824) !important;
+    transition: 1s;
+}
+
+.cell-green {
+    background-color: green !important;
+    transition: 1s;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.alert {
+    width: 50%;
+    float: left;
+    margin-left: 25%;
+}
+
+#notword {
+    display: none;
+}
+
+#not5 {
+    display: none;
+}
